@@ -1,0 +1,50 @@
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+@import url(https://fonts.googleapis.com/css2?family=Habibi&family=Irish+Grover&display=swap);
+
+header {
+    background-color: #06a816;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+h1 {
+    font-family: 'Irish Grover';
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+header ~ p {
+    font-family: "Habibi";
+    font-size: 1.25em;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;;
+}
+
+nav a{
+	padding: 1rem;
+	text-decoration: none;
+	font-size: 1.35rem;
+	background-color: #e75d02;
+    color: #ffffff;
+	border-radius: 8px;
+    grid-column: 2/3;
+    grid-row: ;
+}
+
+img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+
