@@ -1,12 +1,4 @@
 /* -------------------- IMPORTED FONTS -------------------------------------- */
-@font-face {
-    font-family: 'Habibi';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(https://fonts.gstatic.com/s/habibi/v21/CSR-4zFWkuqcTTNyQxhfRuUiSOt_.woff2) format('woff2');
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
 
   @font-face {
     font-family: 'Habibi';
@@ -75,6 +67,62 @@ table {
 }
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+p {
+font-family: 'Habibi';
+font-size: 1.25em;
+}
+
+h1,h2,h3 {
+    font-family: 'Irish Grover';
+}
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.75em;
+}
+h3 {
+    font-size: 1.25em;
+}
+header{
+    background-color: #06A816;
+}
+nav li{
+    background-color: #E75D02;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+}
+section{
+    background-color: #06A816;
+}
+footer{
+    text-align: center;
+}
+a {
+    color: #000000;
+}
+
+#fruits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #ffffff;
+}
+
+#vegetables{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #ffffff;
+}
+
+#cont-hour {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
